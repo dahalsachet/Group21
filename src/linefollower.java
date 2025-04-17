@@ -16,7 +16,7 @@ public class LineFollower {
         SampleProvider light = colorSensor.getRedMode();
         float[] sample = new float[light.sampleSize()];
 
-        int baseSpeed = 250;
+        int baseSpeed = 255;
         int maxSpeed = 600;
         int minSpeed = 100;
 
